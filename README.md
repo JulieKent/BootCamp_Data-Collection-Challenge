@@ -3,7 +3,7 @@
 
 ## Part 1: Scrape Titles and Preview Text from Mars News
 
-1. Use automated browsing to visit the ![Mars news site](https://static.bc-edx.com/data/web/mars_news/index.html). Inspect the page to identify which elements to scrape.
+1. Use automated browsing to visit the [Mars news site](https://static.bc-edx.com/data/web/mars_news/index.html). Inspect the page to identify which elements to scrape.
 
 2. Create a Beautiful Soup object and use it to extract text elements from the website.
 
@@ -23,7 +23,7 @@
 
 ## Part 2: Scrape and Analyse Mars Weather Data
 
-1. Use automated browsing to visit the ![Mars Temperature Data Site](https://static.bc-edx.com/data/web/mars_facts/temperature.html). Inspect the page to identify which elements to scrape.
+1. Use automated browsing to visit the [Mars Temperature Data Site](https://static.bc-edx.com/data/web/mars_facts/temperature.html). Inspect the page to identify which elements to scrape.
 
 2. Create a Beautiful Soup object and use it to scrape the data in the HTML table.
 
@@ -44,27 +44,38 @@
 
 5. Analyse your dataset by using Pandas functions to answer the following questions:
    * How many months exist on Mars?
+     
    ![Months](Images/months.png)
 
    * How many Martian (and not Earth) days worth of data exist in the scraped dataset?
+     
    ![Days](Images/days.png)
 
    * What are the coldest and the warmest months on Mars (at the location of Curiosity)? To answer this question:
       * Find the average minimum daily temperature for all of the months.
+        
       ![Minimum Average Daily Temp](Images/min_avg_temp.png)
+     
       * Plot the results as a bar chart.
+        
       ![Plot Average Minimum Temp](Images/plot_min_temp.png)
+     
       ![Coldest to Warmest](Images/coldest_to_warmest.png)
+     
 
    * Which months have the lowest and the highest atmospheric pressure on Mars? To answer this question:
       * Find the average daily atmospheric pressure of all the months.
+        
       ![Average Atmospheric Pressures](Images/pressure.png)
+     
       * Plot the results as a bar chart.
+        
       ![Pressures Lowest to Highest](Images/pressure_low_to_high.png)
 
    * About how many terrestrial (Earth) days exist in a Martian year? To answer this question:
       * Consider how many days elapse on Earth in the time that Mars circles the Sun once.
       * Visually estimate the result by plotting the daily minimum temperature.
+        
       ![Minimum Temp by Day](Images/min_temp_by_day.png)
 
 6. Export the DataFrame to a CSV file.
