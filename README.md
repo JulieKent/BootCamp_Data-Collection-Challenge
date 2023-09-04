@@ -61,6 +61,9 @@
       ![Plot Average Minimum Temp](Images/plot_min_temp.png)
      
       ![Coldest to Warmest](Images/coldest_to_warmest.png)
+
+      ### Analysis - Which month, on average, has the lowest temperature? The highest?
+       On average, the lowest recorded temperature occurred in the 3rd month at a minimum temperature of -83.3 degrees.  Closely followed by month 4 at -82.7 degrees.  On average, the highest recorded temperature occurred in the 8th month at a minimum temperature of -68.3 degrees.  Closely followed by month 9 at -69.1 degrees.
      
 
    * Which months have the lowest and the highest atmospheric pressure on Mars? To answer this question:
@@ -72,10 +75,16 @@
         
       ![Pressures Lowest to Highest](Images/pressure_low_to_high.png)
 
+      ### Analysis - Which month, on average, has the lowest atmospheric pressure? The highest?
+     On average, the lowest atmospheric pressure was recorded in the 6th month with only slightly higher average recordings in the 5th month. Whereas, the highest average recorded atmospheric pressure occurred in the 9th month.
+
    * About how many terrestrial (Earth) days exist in a Martian year? To answer this question:
       * Consider how many days elapse on Earth in the time that Mars circles the Sun once.
       * Visually estimate the result by plotting the daily minimum temperature.
         
       ![Minimum Temp by Day](Images/min_temp_by_day.png)
 
-6. Export the DataFrame to a CSV file.
+     ### Analysis - How many terrestrial days exist in a Martian year?
+     A rough calculation of the visual difference in the number of days between the peaks (upper peak to upper peak and lower peak to lower peak) in results indicate there are approximately 650 earth days in a Mars year, assuming the results represent seasonal weather changes. 
+
+5. Export the DataFrame to a CSV file.
